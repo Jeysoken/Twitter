@@ -1,12 +1,13 @@
-package twitter;
+package twitter.profile.background;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import twitter.Profile;
+import twitter.profile.Twitter;
 import twitter.profile.TwitterProfile;
-import twitter.profile.background.CachedTwitterBackground;
 
 public class Background extends TwitterProfile {
 	

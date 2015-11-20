@@ -1,4 +1,4 @@
-package twitter;
+package twitter.profile;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -13,6 +13,10 @@ public class Twitter {
 
 	public static CachedTwitterBackground loadTwitterBackground(
 			BufferedImage background) {
+		return null;
+	}
+
+	public static TwitterUser getUser(Object name) {
 		return null;
 	}
 
